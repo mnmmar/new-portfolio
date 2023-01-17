@@ -208,13 +208,19 @@ a {
   width: 80px;
 }
 
-.container {
+.container, .containerB {
   margin: auto;
   height: 300px;
   display: grid;
   grid-template-columns: 10% 10% 10%;
   grid-column-gap: 20%;
   justify-content: center;
+}
+
+.containerB {
+  margin-top: 4%;
+  margin-bottom: 0px;
+  height: 200px;
 }
 
 .projects {
@@ -285,11 +291,11 @@ input {
 }
 
 .top {
-  margin: 4%;
   background-color: #282c3400;
   border: none;
   text-transform: lowercase;
   font-size: 2vh;
+  margin-bottom: 2%;
 }
 
 .top:hover {
