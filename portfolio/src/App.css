@@ -155,7 +155,7 @@ a {
 .about {
   padding-top: 4%;
   text-align: center;
-  height: 1000px;
+  height: 1300px;
 }
 
 .about-heading {
@@ -184,12 +184,16 @@ a {
 }
 
 #margin {
-  margin-top: 20%;
+  margin-top: 10%;
+}
+
+#margins {
+  margin-top: 6%;
 }
 
 .skills {
   padding-top: 4%;
-  height: 900px;
+  height: 800px;
   text-align: center;
 }
 
@@ -225,7 +229,7 @@ a {
 
 .projects {
   padding-top: 4%;
-  height: 2500px;
+  height: 3100px;
   text-align: center;
 }
 

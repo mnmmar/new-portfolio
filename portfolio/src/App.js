@@ -11,6 +11,7 @@ import {CgProfile} from 'react-icons/cg'
 import img1 from './images/gundam.png'
 import img2 from './images/boutique.png'
 import img3 from './images/port.png'
+import img4 from './images/newg.png'
 import Resume from './images/resume.pdf'
 
 const App = () => {
@@ -57,27 +58,41 @@ const App = () => {
       {/* about section */}
       <div className='about' id='about'>
         <h2 className='about-heading' data-aos='fade-right'>About</h2>
-        <div className='left' data-aos='fade-right'>
-          <p className='abouts'>Hi there, I'm Mar Mar!</p>
-          <br></br>
-          <p className='abouts' id='margin' data-aos='fade-right'>What was my life like before?</p>
-          <br></br>
-          <br></br>
-          <p className='abouts' id='margin' data-aos='fade-right'>I'm glad I took up coding as a hobby!</p>
-          <br></br>
-          <br></br>
-          <p className='abouts' id='margin' data-aos='fade-right'>Relevent Experience: </p>
-          
+
+        <div style={{height:"100px"}}>
+          <div className='left' data-aos='fade-right'>
+            <p className='abouts'>Hi there, I'm Mar Mar!</p>
+          </div>
+          <div className='right' data-aos='fade-left'>
+            <p className='abouts'>I'm an aspiring software engineer, working day and night to make my code come to life.</p>
+          </div>
         </div>
 
-        <div className='right'>
-          <p className='abouts' data-aos='fade-left'>I'm an aspiring software engineer, working day and night to make my code come to life.</p>
-         
-          <p className='abouts' data-aos='fade-left' id='margin'>I was a nail tech through highschool and afterwards before I switched over to childcare. I also lived in Boston, Massachusetts for a little bit to help my family with their sushi business.</p>
-        
-          <p className='abouts' data-aos='fade-left' id='margin'>While living in Boston, I had a lot of free time so I took up coding for fun. I fell in love with how wonderful and satisfying coding is and now I'm here!</p>
+        <div style={{height:"300px"}}>
+          <div className='left' data-aos='fade-right' id='margin'>
+            <p className='abouts'>What was my life like before?</p>
+          </div>
+          <div className='right' data-aos='fade-left' id='margins'>
+            <p className='abouts'>I was a nail tech through highschool and afterwards before I switched over to childcare. I also lived in Boston, Massachusetts for a little bit to help my family with their sushi business.</p>
+          </div>
+        </div>
 
-          <p className='abouts' data-aos='fade-left' id='margin'>General Assembly was 500+ hours of coding experience that taught me many useful skills to apply to my next job.</p>
+        <div style={{height:"250px"}}>
+          <div className='left' data-aos='fade-right' id='margin'>
+            <p className='abouts'>I'm glad I took up coding as a hobby!</p>
+          </div>
+          <div className='right' data-aos='fade-left' id='margins'>
+            <p className='abouts'>While living in Boston, I had a lot of free time so I took up coding for fun. I fell in love with how wonderful and satisfying coding is and now I'm here!</p>
+          </div>
+        </div>
+
+        <div style={{height:"250px"}}>
+          <div className='left' data-aos='fade-right' id='margin'>
+            <p className='abouts'>Relevent Experience: </p>
+          </div>
+          <div className='right' data-aos='fade-left' id='margins'>
+            <p className='abouts'>General Assembly was 500+ hours of coding experience that taught me many useful skills to apply to my next job.</p>
+          </div>
         </div>
       </div>
 
@@ -168,6 +183,17 @@ const App = () => {
           <p>My very first portfolio example</p>
           <a href='https://mnmmar-portfolio.netlify.app/index.html'><button className='bttn' target='_blank'>Demo</button></a>
           <a href='https://github.com/mnmmar/portfolio' target='_blank'><button className='bttn'>Code</button></a>
+        </div>
+        <br></br>
+        <br></br>
+
+        <div className='card' data-aos='zoom-in'>
+          <img src={img4} className='img1'></img>
+          <h3>gundam site remake</h3>
+          <p>C# | Dotnet | MongoDB | React</p>
+          <p>The Gundam site with new technologies I taught myself.</p>
+          <a href='https://dotnetgundam.netlify.app/'><button className='bttn' target='_blank'>Demo</button></a>
+          <a href='https://github.com/mnmmar/gundamApi-dotnet/tree/master' target='_blank'><button className='bttn'>Code</button></a>
         </div>
 
 
