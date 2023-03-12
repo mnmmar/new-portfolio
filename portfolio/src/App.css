@@ -170,12 +170,20 @@ a {
   margin-left: 6%;
 }
 
+.left2 {
+  text-align: left;
+  margin-left: 20%;
+  width: 40%;
+  margin-top: 10%;
+}
+
 .right {
   float: right;
   width: 40%;
   margin-right: 6%;
   text-align: left;
 }
+
 
 .abouts {
   font-size: 2.2vh;

@@ -16,7 +16,8 @@ import Resume from './images/resume.pdf'
 
 const App = () => {
   useEffect(() => {
-    AOS.init({duration: 2000})
+    AOS.init({duration: 2000});
+    document.title = "Portfolio";
   }, [])
   return(
     <>
@@ -64,7 +65,7 @@ const App = () => {
             <p className='abouts'>Hi there, I'm Mar Mar!</p>
           </div>
           <div className='right' data-aos='fade-left'>
-            <p className='abouts'>I'm an aspiring software engineer, working day and night to make my code come to life.</p>
+            <p className='abouts'>I'm an aspiring software engineer, working day and night to make my code come to life. Thank you so much for checking my page out!</p>
           </div>
         </div>
 
@@ -73,7 +74,7 @@ const App = () => {
             <p className='abouts'>What was my life like before?</p>
           </div>
           <div className='right' data-aos='fade-left' id='margins'>
-            <p className='abouts'>I was a nail tech through highschool and afterwards before I switched over to childcare. I also lived in Boston, Massachusetts for a little bit to help my family with their sushi business.</p>
+            <p className='abouts'>I was a nail tech through highschool and afterwards before I switched over to childcare. I also lived in Boston, Massachusetts for a little bit to help my family with their sushi business. I had fun hopping around but I craved for a meaningful and satisfying career. After seeing the things you could make with technology, I just felt drawn to it.</p>
           </div>
         </div>
 
@@ -82,16 +83,16 @@ const App = () => {
             <p className='abouts'>I'm glad I took up coding as a hobby!</p>
           </div>
           <div className='right' data-aos='fade-left' id='margins'>
-            <p className='abouts'>While living in Boston, I had a lot of free time so I took up coding for fun. I fell in love with how wonderful and satisfying coding is and now I'm here!</p>
+            <p className='abouts'>While living in Boston, I was introduced to the world of coding. I watched a lot of coding videos day and night to code along with the instructors. I fell in love with how wonderful and satisfying coding is and now I'm here! I enjoy working on small games to mess around with for my little brothers so I decided to learn more about it not just as a hobby, but a job.</p>
           </div>
         </div>
 
         <div style={{height:"250px"}}>
-          <div className='left' data-aos='fade-right' id='margin'>
-            <p className='abouts'>Relevent Experience: </p>
+          <div className='left2' data-aos='fade-right'>
+            <p className='abouts'>Here is my relevent experience: </p>
           </div>
-          <div className='right' data-aos='fade-left' id='margins'>
-            <p className='abouts'>General Assembly was 500+ hours of coding experience that taught me many useful skills to apply to my next job.</p>
+          <div className='right' data-aos='fade-left'>
+            <p className='abouts' style={{marginTop:"-50px"}}>General Assembly was 500+ hours of coding experience that taught me many useful skills to apply to my next job. During my time in the program, I gained the opportunities to work on multiple projects independently as well as collabing with other students. Along with my cohort, I got the chance to showcase my abilities and learn new technologies.</p>
           </div>
         </div>
       </div>
